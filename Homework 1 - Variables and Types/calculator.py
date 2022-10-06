@@ -1,0 +1,23 @@
+anum1 = float(input("Enter first number: \n"))
+anum2 = float(input("Enter second number: \n"))
+sum = float(anum1) + float(anum2)
+sum = round(sum, 2)
+print(str(anum1) + " plus " + str(anum2) + " is " + str(sum))
+
+snum1 = float(input("Enter first number: \n"))
+snum2 = float(input("Enter second number: \n"))
+difference = float(snum1) - float(snum2)
+difference = round(difference, 2)
+print(str(snum1) + " minus " + str(snum2) + " is " + str(difference))
+
+mnum1 = float(input("Enter first number: \n"))
+mnum2 = float(input("Enter second number: \n"))
+product = float(mnum1) * float(mnum2)
+product = round(product, 2)
+print(str(mnum1) + " times " + str(mnum2) + " is " + str(product))
+
+dnum1 = float(input("Enter first number: \n"))
+dnum2 = float(input("Enter second number: \n"))
+quotient = float(dnum1) / float(dnum2)
+quotient = round(quotient, 2)
+print(str(dnum1) + " divide " + str(dnum2) + " is " + str(quotient))
